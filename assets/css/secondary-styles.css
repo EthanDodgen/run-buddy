@@ -1,10 +1,9 @@
-
 .hero {
     background-position: bottom;
     height: 300px;
     text-align: center;
     margin-bottom: 40px;
-}
+  }
 
 
 .page-title {
@@ -19,25 +18,25 @@
 
 .secondary-content {
     width: 80%;
-    margin: 20px 0px 20px 0px;
+    margin: 0 auto;
     color: #024e76;
-
-}
+  }
 
 article h3 {
-    font-size; 25px;
+    font-size: 25px;
     margin: 20px 0px 20px 0px;
 }
 
 .secondary-content h3 {
-    font-size 25px;
-    margin 20px 0px 20px 0px;
+    font-size: 25px;
+    margin: 20px 0px 20px 0px;
 }
 
 .secondary-content p {
-    font-size 16px;
+    font-size: 16px;
     line-height: 1.5;
     margin: 20px 0px 20px 0px;
+   
 }
 
 .secondary-content ul {
