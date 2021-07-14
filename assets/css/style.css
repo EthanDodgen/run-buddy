@@ -52,7 +52,7 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
-/*header end*/
+/* end header */
 
 /*footer*/
 footer {
@@ -79,7 +79,7 @@ footer a {
     color: #024e76;
 }
 
-/*footer end*/
+/* end footer */
 
 section {
     padding: 60px;
@@ -150,9 +150,9 @@ section {
     color: #fce138;
 }
 
-/*hero end*/
+/* end hero */
 
-/*what we/you do*/
+/* what we/you do */
 
 .intro p {
     line-height: 1.7;
@@ -233,7 +233,7 @@ section {
     color: #024e76;
 }
 
-/*what we/you do end*/
+/* end what we/you do */
 
 /*your trainers*/
 .trainers {
@@ -275,7 +275,7 @@ section {
     font-size: 17px;
 }
 
-/*your trainers end*/
+/* end your trainers */
 
 /*reach out*/
 .contact {
@@ -286,17 +286,22 @@ section {
     color: #fce138;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info>* {
+    flex: 1;
+    margin: 15px;
+}
+
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
 }
 
@@ -309,7 +314,7 @@ section {
 .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
 }
 
@@ -317,7 +322,29 @@ section {
     color: #fce138;
 }
 
-/*reach out end*/
+.contact-form input, 
+.contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background:  #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+/* end reach out */
 
 .text-left {
     text-align: left;
